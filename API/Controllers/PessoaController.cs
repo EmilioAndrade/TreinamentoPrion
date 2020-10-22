@@ -12,6 +12,7 @@ namespace API.Controllers
         public PessoaController()
         {
             this.service = new PessoaService();
+
         }
     }
 }
