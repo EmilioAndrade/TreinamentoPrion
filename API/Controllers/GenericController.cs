@@ -9,7 +9,7 @@ namespace API.Controllers
 {
     public class GenericController<T> : Controller where T : class
     {
-        private GenericService<T> service;
+        protected GenericService<T> service;
         public GenericController()
         {
             service = new GenericService<T>();
